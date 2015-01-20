@@ -8,7 +8,7 @@ public class LenguajesCastelazo {
 
    
     public static void main(String[] args) {
-        System.out.println("Mi primer porgrama de Java 2");
+        System.out.println("Línea modificada");
     }
     
 }
