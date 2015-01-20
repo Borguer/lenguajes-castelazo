@@ -8,7 +8,7 @@ public class LenguajesCastelazo {
 
    
     public static void main(String[] args) {
-        System.out.println("Línea modificada");
+        System.out.println("Prueba de push");
     }
     
 }
