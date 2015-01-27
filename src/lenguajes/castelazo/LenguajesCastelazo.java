@@ -32,7 +32,7 @@ public class LenguajesCastelazo {
                 }
                 else{
                     if(imc>=27 && imc<=29.9){
-                        System.out.println("Obesidad grado uno");
+                        System.out.println("Obesidad grado I");
                     }
                     else{
                         if(imc>=30 && imc<=39.9){
