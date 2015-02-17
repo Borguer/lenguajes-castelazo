@@ -19,18 +19,24 @@ public class InterfaceAreas extends javax.swing.JFrame {
         textoLado = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(153, 102, 255));
 
-        botonCalcularArea.setText("jButton1");
+        botonCalcularArea.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        botonCalcularArea.setText("Calcular");
         botonCalcularArea.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonCalcularAreaActionPerformed(evt);
             }
         });
 
+        jLabel1.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
         jLabel1.setText("¿Cuál es el valor del lado?");
 
         etiquetaResultado.setBackground(new java.awt.Color(153, 153, 255));
+        etiquetaResultado.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
         etiquetaResultado.setText("Resultado:");
+
+        textoLado.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -62,7 +68,7 @@ public class InterfaceAreas extends javax.swing.JFrame {
                 .addComponent(etiquetaResultado)
                 .addGap(115, 115, 115)
                 .addComponent(botonCalcularArea)
-                .addContainerGap(271, Short.MAX_VALUE))
+                .addContainerGap(244, Short.MAX_VALUE))
         );
 
         pack();
@@ -74,8 +80,8 @@ Cuadrado c=new Cuadrado();
 c.setLado(Float.parseFloat(textoLado.getText()));
 etiquetaResultado.setText("El área es: "+c.calcular());
 }
-catch(NumberFormatException e){
-etiquetaResultado.setText("Metiste un valor que no es un número, TONTO");
+catch(Throwable e){
+etiquetaResultado.setText(e.getMessage());
 }
     }//GEN-LAST:event_botonCalcularAreaActionPerformed
 
