@@ -1,17 +1,21 @@
 package figuras;
 
 public class Cuadrado {
-    private int lado;
+    private float lado;
+    /**
+     * Este constructor tiene un argumento de tipo flotante
+     * @param lado El parametro que debes ingresar es el valor del cuadrado
+     */
     
-    public void setLado(int lado){
+    public void setLado(float lado){
         this.lado=lado;
     }
-     public int getLado(){
+     public float getLado(){
          return lado;
      }
      
-     public int calcular(){
-         int area=lado*lado;
+     public float calcular(){
+         float area=lado*lado;
          return area;
      }
 }
