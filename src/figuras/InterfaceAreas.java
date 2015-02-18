@@ -19,7 +19,7 @@ public class InterfaceAreas extends javax.swing.JFrame {
         textoLado = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setBackground(new java.awt.Color(153, 102, 255));
+        setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         botonCalcularArea.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
         botonCalcularArea.setText("Calcular");
