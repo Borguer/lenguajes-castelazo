@@ -4,7 +4,7 @@ package figuras;
 public class Figura {
 
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws NumeroNoNegativoException {
      Cuadrado c=new Cuadrado();
      Rectangulo r=new Rectangulo(); 
      c.setLado(4);
