@@ -5,6 +5,17 @@ public class Rectangulo{
     private float ladomayor;
     private float ladomenor;
     
+    public Rectangulo(){
+        
+    }
+
+    public Rectangulo(float ladomayor, float ladomenor) {
+        this.ladomayor = ladomayor;
+        this.ladomenor = ladomenor;
+    }
+    
+    
+    
     public float getLadomayor() {
         return ladomayor;
     }
