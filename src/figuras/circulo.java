@@ -1,7 +1,7 @@
 package figuras;
 
 
-public class circulo {
+public class circulo implements Superficies {
     private float radio;
     
     public circulo(){
@@ -12,7 +12,7 @@ public class circulo {
         this.radio = radio;
     }
     
-    public float calculararea(){
+    public float calcularArea(){
         return 3.1416f*radio*radio;
     }
 

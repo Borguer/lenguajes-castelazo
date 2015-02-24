@@ -32,7 +32,7 @@ public class Rectangulo{
         this.ladomenor = ladomenor;
     }
     
-        public float calcular(){
+        public float calcularArea(){
         return ladomayor*ladomenor;
     }
 }

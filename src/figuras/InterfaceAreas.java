@@ -95,7 +95,7 @@ public class InterfaceAreas extends javax.swing.JFrame {
 try{
 Cuadrado c=new Cuadrado();
 c.setLado(Float.parseFloat(textoLado.getText()));
-etiquetaResultado.setText("El área es: "+c.calcular());
+etiquetaResultado.setText("El área es: "+c.calcularArea());
 }
 catch(Throwable e){
 etiquetaResultado.setText(e.getMessage());
