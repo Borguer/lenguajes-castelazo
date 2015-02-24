@@ -31,4 +31,8 @@ public class triangulo {
         this.altura = altura;
     }
     
+    public float calcular(){
+        return (base*altura)/2;
+    }
+    
 }
