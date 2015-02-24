@@ -7,8 +7,9 @@ public class Cuadrado  {
      * @param lado El parametro que debes ingresar es el valor del cuadrado
      */
     
-    public void setLado(float lado) throws NumeroNoNegativoException{
-        ValidarValorNoNegativo.validar(lado);
+    public void setLado(float lado) throws NumeroNoNegativoException, FueraDeRangoException{
+        validarvalores.validarValorNoNegativo(lado);
+        validarvalores.validarRango(lado);
         this.lado=lado;
     }
      public float getLado(){
