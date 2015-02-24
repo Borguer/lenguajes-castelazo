@@ -10,8 +10,8 @@ public class Figura {
      c.setLado(4);
      c.calcular();
         System.out.println("El área del cuadrado es: "+c.getLado());
-     r.setLadoa(7);
-     r.setLadob(4);
+     r.setLadomayor(7);
+     r.setLadomenor(4);
      r.calcular();
         System.out.println("El área del rectangulo es: "+r.calcular());
         

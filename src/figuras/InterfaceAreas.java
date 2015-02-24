@@ -23,9 +23,9 @@ public class InterfaceAreas extends javax.swing.JFrame {
         setBackground(new java.awt.Color(255, 255, 51));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        jPanel1.setBackground(new java.awt.Color(153, 102, 255));
+        jPanel1.setBackground(new java.awt.Color(0, 153, 153));
 
-        botonCalcularArea.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        botonCalcularArea.setFont(new java.awt.Font("Comic Sans MS", 0, 18)); // NOI18N
         botonCalcularArea.setText("Calcular");
         botonCalcularArea.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -33,14 +33,14 @@ public class InterfaceAreas extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Comic Sans MS", 0, 18)); // NOI18N
         jLabel1.setText("¿Cuál es el valor del lado?");
 
         etiquetaResultado.setBackground(new java.awt.Color(153, 153, 255));
-        etiquetaResultado.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        etiquetaResultado.setFont(new java.awt.Font("Comic Sans MS", 0, 18)); // NOI18N
         etiquetaResultado.setText("Resultado:");
 
-        textoLado.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        textoLado.setFont(new java.awt.Font("Comic Sans MS", 0, 18)); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

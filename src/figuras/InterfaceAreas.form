@@ -42,7 +42,7 @@
     <Container class="javax.swing.JPanel" name="jPanel1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="66" red="99" type="rgb"/>
+          <Color blue="99" green="99" red="0" type="rgb"/>
         </Property>
       </Properties>
 
@@ -93,7 +93,7 @@
         <Component class="javax.swing.JButton" name="botonCalcularArea">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Comic Sans MS" size="14" style="0"/>
+              <Font name="Comic Sans MS" size="18" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Calcular"/>
           </Properties>
@@ -104,7 +104,7 @@
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Comic Sans MS" size="14" style="0"/>
+              <Font name="Comic Sans MS" size="18" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l es el valor del lado?"/>
           </Properties>
@@ -115,7 +115,7 @@
               <Color blue="ff" green="99" red="99" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Comic Sans MS" size="14" style="0"/>
+              <Font name="Comic Sans MS" size="18" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Resultado:"/>
           </Properties>
@@ -123,7 +123,7 @@
         <Component class="javax.swing.JTextField" name="textoLado">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Comic Sans MS" size="14" style="0"/>
+              <Font name="Comic Sans MS" size="18" style="0"/>
             </Property>
           </Properties>
         </Component>

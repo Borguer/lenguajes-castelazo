@@ -1,26 +1,27 @@
 package figuras;
 
-public class Rectangulo {
-    private int ladoa, ladob;
+public class Rectangulo{
     
-    public void setLadoa(int ladoa){
-        this.ladoa=ladoa;
+    private float ladomayor;
+    private float ladomenor;
+    
+    public float getLadomayor() {
+        return ladomayor;
+    }
+
+    public void setLadomayor(float ladomayor) {
+        this.ladomayor = ladomayor;
+    }
+
+    public float getLadomenor() {
+        return ladomenor;
+    }
+
+    public void setLadomenor(float ladomenor) {
+        this.ladomenor = ladomenor;
     }
     
-    public int getLadoa(){
-        return ladoa;
-    }
-    
-    public void setLadob(int ladob){
-        this.ladob=ladob;
-    }
-    
-    public int getLadob(){
-       return ladob;
-    }
-    
-    public int calcular(){
-        int area=ladoa*ladob;
-        return area;
+        public float calcular(){
+        return ladomayor*ladomenor;
     }
 }
