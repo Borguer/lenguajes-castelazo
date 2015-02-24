@@ -5,7 +5,7 @@ public class Figura {
 
     
     public static void main(String[] args) throws NumeroNoNegativoException {
-     Cuadrado c=new Cuadrado();
+     /*Cuadrado c=new Cuadrado();
      Rectangulo r=new Rectangulo(); 
      c.setLado(15);
      c.calcularArea();
@@ -14,7 +14,7 @@ public class Figura {
      r.setLadomenor(4);
      r.calcularArea();
         System.out.println("El área del rectangulo es: "+r.calcularArea());
-        
+    */    
     }
     
 }
