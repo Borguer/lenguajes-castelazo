@@ -1,6 +1,6 @@
 package figuras;
 
-public class Rectangulo{
+public class Rectangulo implements Superficies {
     
     private float ladomayor;
     private float ladomenor;
@@ -33,6 +33,7 @@ public class Rectangulo{
     }
     
         public float calcularArea(){
+            System.out.print("El área del rectángulo es: ");
         return ladomayor*ladomenor;
     }
 }

@@ -2,7 +2,7 @@
 package figuras;
 
 
-public class triangulo {
+public class triangulo implements Superficies {
     private float base;
     private float altura;
     
@@ -32,6 +32,7 @@ public class triangulo {
     }
     
     public float calcularArea(){
+        System.out.print("El área del triángulo es: ");
         return (base*altura)/2;
     }
     
