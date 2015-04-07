@@ -6,6 +6,7 @@ public class PersistenciaUsuario {
         
     }
     public static Cliente leer(String nombre) throws Exception{
+        return null;
         
     }
 }
